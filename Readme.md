@@ -13,5 +13,20 @@ DeepScrean is a virtual screening pipeline that combines the speed of AutoDock V
 
 DeepScrean is engine-agnostic at the orchestration layer and can be adapted to different protein targets, ligand libraries, and cluster environments.
 
+Installation
+------------
+
+1. create DockSream env.
+    ```shell
+    git clone https://github.com/MolecularAI/DockStream.git
+    cd DockStream 
+    conda env create -f environment.yml
+    conda activate DockStream
+     ```
+1. install boltz2
+    ```shell
+    pip install boltz[cuda] -U
+    ```
+
 
 
