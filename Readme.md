@@ -28,5 +28,10 @@ Installation
     pip install boltz[cuda] -U
     ```
 
+Basic Usage
+-----------
+
+view in the "script" directory,which contains independent Readmes
+
 
 
